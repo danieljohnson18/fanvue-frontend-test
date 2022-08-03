@@ -7,7 +7,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title></title>
+        <title>Fanvue&apos;s Frontend coding challenge</title>
+        <link rel="icon" href="https://www.fanvue.com/logo512.png" />
       </Head>
       <main>
         <Box textAlign={"center"} my={8}>
@@ -24,7 +25,7 @@ const Home: NextPage = () => {
               justifyContent: "center",
             }}
           >
-            <NextLink href="/feed" passHref>
+            <NextLink href="post/feed" passHref>
               <Link>
                 <Paper
                   sx={{
